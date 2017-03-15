@@ -1,0 +1,14 @@
+{
+  "name": "electron-sysinfoapp",
+  "version": "1.0.0",
+  "description": "Simple system monitor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jordan Blakey",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.2"
+  }
+}
