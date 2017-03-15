@@ -18,7 +18,11 @@
     console.log(process);
     let output = `
         <h2 class="page-header">App Version Data</h2>
-        <ul class="list-group"></ul>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Node: ${process.versions.node}
+            </li>
+        </ul>
     `;
 </script>
 <script type="text/javascript">
